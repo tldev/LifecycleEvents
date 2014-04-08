@@ -1,4 +1,4 @@
-LifeCycleEvents
+LifecycleEvents
 ===============
 
-LifeCycle Events for DoctrineORMModule are bridged from Doctrine's events to ZF2's events
+Lifecycle Events for DoctrineORMModule are bridged from Doctrine's events to ZF2's events

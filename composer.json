@@ -1,0 +1,34 @@
+{
+    "name": "tldev/LifecycleEvents",
+    "description": "ZF2 Module that bridged Doctrine EntityManager events to ZF2 events",
+    "type": "zf-module",
+    "keywords": [
+        "doctrine",
+        "orm",
+        "module",
+        "zf2",
+        "lifecycle",
+        "events"
+    ],
+    "homepage": "http://thelazydeveloper.com",
+    "authors" : [
+        {
+            "name": "Thomas Johnell",
+            "email": "tjohnell@gmail.com",
+            "homepage": "http://thelazydeveloper.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.23",
+        "doctrine/doctrine-orm-module": "0.8.*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "LifecycleEvents": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
