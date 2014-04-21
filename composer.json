@@ -1,5 +1,5 @@
 {
-    "name": "tldev/LifecycleEvents",
+    "name": "tldev/lifecycle-events",
     "description": "ZF2 Module that bridged Doctrine EntityManager events to ZF2 events",
     "type": "zf-module",
     "keywords": [
